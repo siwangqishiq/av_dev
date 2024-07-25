@@ -1,4 +1,5 @@
 CC := g++
+# CC := clang++
 
 DIR := .
 SRC_DIR := src
@@ -30,7 +31,7 @@ link:compile
 		-o ${BUILD_DIR}/app
 
 run:link
-	${BUILD_DIR}/app
+	${BUILD_DIR}/app E:/assets/mv/wanzi.mp4
 
 clean:
 	rm -f ${BUILD_DIR}/*.o 
