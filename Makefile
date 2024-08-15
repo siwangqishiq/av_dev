@@ -7,7 +7,7 @@ ASSET_DIR := assets
 BUILD_DIR := build
 INCLUDE_DIR := include
 STD := c++14
-OPTPARAMS := -O1
+# OPTPARAMS := -O1
 
 .PHONY: clean
 
